@@ -29,6 +29,6 @@ func StoneToKilogram(s Stone) Kilogram { return Kilogram(s / 0.157473) }
 // StoneToPound converts Stone weight to Pound
 func StoneToPound(s Stone) Pound { return Pound(s / 0.0714286) }
 
-func (k Kilogram) String() string { return fmt.Sprintf("%gkg", k) }
-func (p Pound) String() string    { return fmt.Sprintf("%glbs", p) }
-func (s Stone) String() string    { return fmt.Sprintf("%gst", s) }
+func (k Kilogram) String() string { return fmt.Sprintf("%g kg", k) }
+func (p Pound) String() string    { return fmt.Sprintf("%g lbs", p) }
+func (s Stone) String() string    { return fmt.Sprintf("%g st", s) }
