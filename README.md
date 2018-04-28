@@ -20,7 +20,7 @@ This will make a copy of the package in your Go workspace.
 
 Add the following line to your Go file.
 
-```
+```go
 import "github.com/lucabarbosa/unitconverter"
 ```
 
@@ -49,7 +49,7 @@ This package allows you to convert each of the measurement units to each other (
 
 This will convert a Meter Length to Feets:   
 
-```
+```go
 meterLength := unitconverter.Meter(21)
 feetLength := unitconverter.MeterToFeet(meterLength)
 
@@ -59,7 +59,7 @@ feetLength := unitconverter.MeterToFeet(meterLength)
 
 This will convert a Celsius Temperature to Kelvin:  
 
-```
+```go
 celsiusTemperature := unitconverter.Celsius(35)
 kelvinTemperature := unitconverter.CelsiusToKelvin(celsiusTemperature)
 
@@ -70,7 +70,7 @@ kelvinTemperature := unitconverter.CelsiusToKelvin(celsiusTemperature)
 
 This will convert a Kilogram Wight to Pound:  
 
-```
+```go
 kilogramWeight := unitconverter.Kilogram(75)
 poundWeight := unitconverter.KilogramToPound(kilogramWeight)
 
